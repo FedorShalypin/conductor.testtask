@@ -33,3 +33,13 @@ The first value of any given line is a character. The second value is the number
 * Installation (if needed) and running instructions in README.md
 * Tests
 * Information about spent time
+
+## Requirements:
+- Java 8+
+- Apache Maven 3+
+
+## Run:
+	mvn -Denv=prod clean package exec:java
+	
+## Spend time
+	4.5h
